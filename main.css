@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #2d3740;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    padding: 10rem;
+    background: #1c262f;
+    color: rgb(230,225,225);
+    width: 90%;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-size: 1.8rem;
+}
+
+input[type='number'] {
+    font-family: inherit;
+    background: rgb(230,225,225);
+    width: 50%;
+    margin: 1rem 0;
+    padding: 0.8rem 0;
+    border: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    width: 80px;
+    padding: 1rem;
+    border: none;
+    background: darkcyan;
+    color: rgb(230,225,225);
+    margin: 0.5rem 0 1rem 0;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li {
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+}
+
+.entriesWrapper {
+    padding: 1rem 0;
+    font-size: 1.6rem
+}
+
+.entriesWrapper h3 {
+    margin:0;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.data {
+    font-size: 1.4rem;
+}
+
+.data div {
+    background: #141c22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 0 1rem;
+}
